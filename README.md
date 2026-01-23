@@ -79,7 +79,7 @@ The diagram below illustrates how the components will be interconnected all toge
 After clicking the **Deploy new agent** button, choose the operating system and fill all the details asked in the following screen as shown in the images below:
 
 <p align="center">
-<img width="643" alt="details filled" src="https://github.com/user-attachments/assets/25feca57-5086-4d69-93db-4a9a0d366562">
+<img width="643" alt="details filled" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/complete%20deployment.png">
 </p>
 
 After running all the given commands on your windows machine, click the **Close** button and check for the connectivity between the manager and the agent, the screen should look like the image below.
