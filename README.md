@@ -85,7 +85,7 @@ After clicking the **Deploy new agent** button, choose the operating system and 
 After running all the given commands on your windows machine, click the **Close** button and check for the connectivity between the manager and the agent, the screen should look like the image below.
 
 <p align="center">
-<img width="643" alt="Agent showing in the manager" src="https://github.com/user-attachments/assets/f0bde5d7-4bd3-45d4-b328-493762fbce9b">
+<img width="643" alt="Agent showing in the manager" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/active.png">
 </p>
 
 If not showing as **active** wait for some minutes and refresh the page.
@@ -93,8 +93,8 @@ If not showing as **active** wait for some minutes and refresh the page.
    - **5.6: Configure the agent to monitor the files or folders you intend to moniotr**
 Now that we already deployed the agent, let configure it. The configurations will be made on the file **ossec.conf** located at **C:\Program Files (x86)\ossec-agent**. Before we change any configuration on it, it is a best practice to make a backup of the file, so copy and rename the file so that anything going wrong we can be able to revert to our functional version. For this demonstration we will be monitoring the folder **C:\Users\Public**, but you are free to choose another directory. So locate the section with **File integrity monitoring** and add the content below inside of that:
 
-       ```bash
-       <directories check_all="yes" whodata="yes" report_changes="yes">C:\Users\Public</directories>
+       ``` bash
+       <directories realtime="yes">C:\Users\Public</directories>
        ```
 
 After editing the configuration file, save it and restart the agent. Go to **seacrh bar**, type **services** and hit **ENTER**. Locate the service called **wazuh**, right click on it and choose **restart**, or on powerShell run the below commands:
@@ -143,7 +143,7 @@ As can be seen in the image above, we can see even when the file is edited. We s
 
 
 
-   - **5.6: File Integrity Monitoring on Ubuntu 24.04 Server**
+   - **5.7: File Integrity Monitoring on Ubuntu 24.04 Server**
 
 To deploy the agent on Ubuntu, we follow the same steps as for Windows, we just change the Operating System we choose and run the commands that will be shown.
 On the wazuh manager server, we change the file **ossec.conf** at the directory **/var/ossec/etc** and we change the below values from **no** to **yes**
