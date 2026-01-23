@@ -119,13 +119,13 @@ Inside, we created one folder and one file, called **Test Folder** and **Test fi
 </p>
 
 
-Now you can see the changes, you can see how files created and deleted.
+Now you can see the changes, you can see alert when a file is added.
 
 <p align="center">
-<img width="643" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/file%20deleted.png">
+<img width="643" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/details%20add.png">
 </p>
 
-Down below we can see the details given by the **whodata** feature enabled. 1 - We can see the user, 2 - we see the operation made by the user and 3 - we see the file created.
+Now you can see the changes, you can see alert when a file is deleted
 
 <p align="center">
 <img width="457" alt="Details about whodata" src="https://github.com/user-attachments/assets/1f926183-a0f7-4547-995c-f527015ae70d">
