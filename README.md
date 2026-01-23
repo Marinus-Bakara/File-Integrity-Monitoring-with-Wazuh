@@ -34,23 +34,18 @@ The diagram below illustrates how the components will be interconnected all toge
      - **Agent Node**: Installed on target system (Windows a) to collect logs.
 
 ### 5. Installation Steps
-   - **5.1. Setting Up VirtualBox for ubuntu  24.04.LTS**setting for my ubuntu where wazuh is instelled in VirtualBox
+   - **5.1. Setting Up VirtualBox for ubuntu  24.04.LTS** setting for my ubuntu where wazuh is instelled in VirtualBox
 
- <img width="500" src=https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/1.png>
+<img width="500" src=https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/1.png>
 <br>
 <br>
    
-   - **5.2: Setting Up Windows 2022 on VirtualBox**
+   - **5.2: Setting Up Windows 2022 on VirtualBox** For setting up Windows 2022 on VirtualBox, refer to
 
-For setting up Windows 2022 on VirtualBox, refer to <img width="500" src=>
+ <img width="500" src=https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/setting%20for%20windows.png>
 <br>
 <br>
 
-   - **5.3: Setting Up Ubuntu Server 24.04.LTS on VirtualBox**
-
-For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Ubuntu-on-VirtualBox">this guide</a>
-<br>
-<br>
 
    - **5.4: Setting Up Wazuh Manager on Ubuntu Server 24.04 LTS**
 
