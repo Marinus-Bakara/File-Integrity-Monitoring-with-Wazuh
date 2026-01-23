@@ -115,7 +115,7 @@ If you followed everything from the beginning, you will notice that there is no 
 Inside, we created one folder and one file, called **Test Folder** and **Test file**, as shown below. Go and see again the **Events** under **File Integrity Monitoring**.
 
 <p align="center">
-<img width="421" alt="File and Folder created" src="https://github.com/user-attachments/assets/f254378e-caea-4189-80fa-17047581cc8b">
+<img width="421" alt="File and Folder created" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/folder%20side.png">
 </p>
 
 
