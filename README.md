@@ -63,15 +63,15 @@ The diagram below illustrates how the components will be interconnected all toge
 
   <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/4.png">
  
-   - **5.6: Run the following command to start wazuh**
+  **5.6: Run the following command to start wazuh**
 
      <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/5.png">
      
-     - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **Deploy new agent**:
+     - **accept all the option in other to login,and why is saying we should accept the risk on continue is that we are not using a valid certificate for it.After opening it you enter your credential that is the admin name and password we had earlier** 
 
-<p align="center">
-<img width="643" alt="Agent deployment" src="https://github.com/user-attachments/assets/075b542a-1a3e-400e-95ce-61b0e59aed0f">
-</p>
+
+<img width="500"  src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/merged.png">
+
 
 After clicking the **Deploy new agent** button, choose the operating system and fill all the details asked in the following screen as shown in the images below:
 
