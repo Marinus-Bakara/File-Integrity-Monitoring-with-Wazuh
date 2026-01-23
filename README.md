@@ -26,7 +26,7 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
 The diagram below illustrates how the components will be interconnected all together, along with their description and IP addresses details.
 
 <p align="center">
-<img width="300" alt="network diagram" src=https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/network%20diagram.png>
+<img width="500" alt="network diagram" src=https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/network%20diagram.png>
 </p>
 
    - **Components**:
@@ -34,15 +34,15 @@ The diagram below illustrates how the components will be interconnected all toge
      - **Agent Node**: Installed on target system (Windows a) to collect logs.
 
 ### 5. Installation Steps
-   - **5.1. Setting Up VirtualBox for ubuntu  24.04.LTS**
+   - **5.1. Setting Up VirtualBox for ubuntu  24.04.LTS**setting for my ubuntu where wazuh is instelled in VirtualBox
 
-setting for my ubuntu where wazuh is instelled in VirtualBox, refer to <a href=1.png>
+ <img width="500" src=https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/1.png>
 <br>
 <br>
    
    - **5.2: Setting Up Windows 2022 on VirtualBox**
 
-For setting up Windows 2022 on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Windows-on-VirtualBox">this guide</a>
+For setting up Windows 2022 on VirtualBox, refer to <img width="500" src=>
 <br>
 <br>
 
