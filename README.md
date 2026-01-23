@@ -72,6 +72,9 @@ The diagram below illustrates how the components will be interconnected all toge
 
 <img width="500"  src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/merged.png">
 
+ **Deploy new agent**
+
+<img width="500"  src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/agent%20deployment.png">
 
 After clicking the **Deploy new agent** button, choose the operating system and fill all the details asked in the following screen as shown in the images below:
 
