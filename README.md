@@ -57,7 +57,9 @@ The diagram below illustrates how the components will be interconnected all toge
        ```bash
        curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
        ```
-       
+      <p align="center">
+<img width="643" alt="Agent deployment" src="https://github.com/user-attachments/assets/075b542a-1a3e-400e-95ce-61b0e59aed0f">
+</p> 
    - **5.5: File Integrity Monitoring on Windows Server 2022**
      
      - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **Deploy new agent**:
