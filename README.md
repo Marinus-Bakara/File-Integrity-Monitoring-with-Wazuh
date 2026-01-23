@@ -136,76 +136,27 @@ So, open the file and type any text, in this case the example will be ***This is
 
 
 <p align="center">
-<img width="457" alt="File modification example" src="https://github.com/user-attachments/assets/83adc4c0-ec55-47e2-b3eb-78ce4d7c2746">
+<img width="457" alt="File modification example" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/num%20char.png">
 </p>
 
-As can be seen in the image above, we can see even when the file is edited. We still see number 1 - the user, number 2 - the content added, number 3 - the operation, number 4 - the amount of characters after the modification and number 5 - the amount of characters before the modification.
-
-
-
-   - **5.7: File Integrity Monitoring on Ubuntu 24.04 Server**
-
-To deploy the agent on Ubuntu, we follow the same steps as for Windows, we just change the Operating System we choose and run the commands that will be shown.
-On the wazuh manager server, we change the file **ossec.conf** at the directory **/var/ossec/etc** and we change the below values from **no** to **yes**
-
-<p align="center">
-<img width="200" alt="logall change" src="https://github.com/user-attachments/assets/d3346007-c641-4e39-8cb7-f44b90c7bbaf">
-</p>
-
-If we want to monitor the changes and know the user that made them, we need to install the audit daemon on the monitored system, if not installed yet. For that, we use the commands below on the machine being monitored:
-
-```
-       apt install auditd audispd-plugins -y
-       systemctl restart auditd
-```
-
-After all, we edit the file **ossec.conf** located at **/var/ossec/etc** directory and in the section **File Integrity Moniotring** we add the line below:
-
-```
-       <directories check_all="yes" whodata="yes" report_changes="yes">/home</directories>
-```
-
-After the configuration made, we can now go to our machine and add some file so that we can see the manager trigger this addition, run the following commands:
-
-```
-cd /home
-touch test.txt
-```
-Then go to the manager and check the file created
-
-<p align="center">
-<img width="852" alt="File added" src="https://github.com/user-attachments/assets/8f0ee502-807d-4307-be60-5178a1337e85">
-</p>
-
-Now, modify the file, or add some text on it. Go back to the manager and you will see the action, see the image below.
-
-<p align="center">
-<img width="853" alt="File added" src="https://github.com/user-attachments/assets/807ff532-3f78-47c7-8dfe-b0f2a6a72d23">
-</p>
-
-Expanding the trigger, you can see the text added. Number 1 - The user who made the change, number 2 - the directory on which the change was made, number 3 - the text added and number 4 - the operation.
-
-<p align="center">
-<img width="410" alt="File added" src="https://github.com/user-attachments/assets/b8c1c2ad-f602-4d30-aee7-95f2601a8741">
-</p>
+As can be seen in the image above. number 4 - the amount of characters after the modification and number 5 - the amount of characters before the modification.
 
 
 ### 6. **Conclusion**
    - This project successfully demonstrated:
 <p>
--- The deployment of wazuh server, along with manager, indexer and dashboard, on Ubuntu 24.04 Server;
+-- The deployment of wazuh server, along with manager, indexer and dashboard, on Ubuntu 24.04 ;
 </p>
 <p>
--- The deployment of wazuh agent on Ubuntu 24.04 Server and Windows Server 2022;
+-- The deployment of wazuh agent on Windows 2022;
 </p>
 <p>
--- The File Integrity Monitoring on both Windows and Ubuntu.
+-- The File Integrity Monitoring on Windows.
 </p>
 
 
 ### 7. **Contact Information**
-   - **Name**: Rogério Muhate
-   - **Email**: rbmuhate@gmail.com
-   - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rmuhate)
+   - **Email**: bakaramarinus3@gmail.com
+  
 
 
