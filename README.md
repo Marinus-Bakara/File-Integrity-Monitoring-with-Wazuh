@@ -108,7 +108,7 @@ After editing the configuration file, save it and restart the agent. Go to **sea
 After that, check if is there any event on the manager, following the steps shown in the image below, then go to **Events**.
 
 <p align="center">
-<img width="643" alt="Check events" src="https://github.com/user-attachments/assets/ef71fc09-fa99-4f2e-a1b7-8472940853da">
+<img width="643" alt="Check events" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/file%20int%20complete.png">
 </p>
 
 If you followed everything from the beginning, you will notice that there is no event triggered, that because we didn't make any modification yet. Let us create a file inside the folder **C:\Users\Public** and check if we will have any event.
