@@ -59,10 +59,12 @@ The diagram below illustrates how the components will be interconnected all toge
        ```
 <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/2.png">
 
-- **5.5: check your ip address** this is the address we are going to use to open our wazuh web interface using our browser
-  <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/2.png">
+- **5.5: check your ip address** this is the address we are going to use to open our wazuh web interface using our browser copy it and paste it on your browser
+
+  <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/4.png">
  
-   - **5.5: File Integrity Monitoring on Windows Server 2022**
+   - **5.6: Run the following command to start wazuh**
+     <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/4.png">
      
      - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **Deploy new agent**:
 
