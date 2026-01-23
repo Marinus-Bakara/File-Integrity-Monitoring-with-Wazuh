@@ -31,12 +31,12 @@ The diagram below illustrates how the components will be interconnected all toge
 
    - **Components**:
      - **Wazuh Manager**: Centralized management console.
-     - **Agent Nodes**: Installed on target systems (Windows and Ubuntu Servers) to collect logs.
+     - **Agent Node**: Installed on target system (Windows a) to collect logs.
 
 ### 5. Installation Steps
-   - **5.1. Setting Up VirtualBox**
+   - **5.1. Setting Up VirtualBox for ubuntu  24.04.LTS**
 
-For setting up VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
+setting for my ubuntu where wazuh is instelled in VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
 <br>
 <br>
    
