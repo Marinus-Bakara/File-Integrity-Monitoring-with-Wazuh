@@ -36,7 +36,7 @@ The diagram below illustrates how the components will be interconnected all toge
 ### 5. Installation Steps
    - **5.1. Setting Up VirtualBox for ubuntu  24.04.LTS**
 
-setting for my ubuntu where wazuh is instelled in VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
+setting for my ubuntu where wazuh is instelled in VirtualBox, refer to <a href=1.png>
 <br>
 <br>
    
