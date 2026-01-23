@@ -128,7 +128,7 @@ Now you can see the changes, you can see alert when a file is added.
 Now you can see the changes, you can see alert when a file is deleted
 
 <p align="center">
-<img width="457" alt="Details about whodata" src="https://github.com/user-attachments/assets/1f926183-a0f7-4547-995c-f527015ae70d">
+<img width="457" alt="Details about whodata" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/details.png">
 </p>
 
 Let now make some changes on the file and see if the wazuh will trigger them.
