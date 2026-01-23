@@ -64,7 +64,8 @@ The diagram below illustrates how the components will be interconnected all toge
   <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/4.png">
  
    - **5.6: Run the following command to start wazuh**
-     <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/4.png">
+
+     <img width="500" src="https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/5.png">
      
      - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **Deploy new agent**:
 
