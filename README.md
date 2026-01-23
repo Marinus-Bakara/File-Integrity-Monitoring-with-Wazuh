@@ -26,7 +26,7 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
 The diagram below illustrates how the components will be interconnected all together, along with their description and IP addresses details.
 
 <p align="center">
-<img width="300" alt="Network Diagram" src="https://github.com/user-attachments/assets/d4e4da42-b979-432c-a39f-8d0aa15bf3a8">
+<img width="300" alt="network diagram" src=https://github.com/Marinus-Bakara/File-Integrity-Monitoring-with-Wazuh/blob/main/network%20diagram.png>
 </p>
 
    - **Components**:
