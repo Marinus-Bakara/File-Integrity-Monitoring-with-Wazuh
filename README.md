@@ -2,7 +2,16 @@
 
 ### 1. Description
 
-This home lab project focuses on implementing File Integrity Monitoring (FIM) using Wazuh, an open-source security monitoring solution. The FIM will be implemented for Windows 11. FIM is crucial for maintaining the security and integrity of files on systems by detecting unauthorized changes, which could indicate potential security breaches or system tampering
+This home lab project focuses on implementing File Integrity Monitoring (FIM) using Wazuh, an open-source security monitoring solution. The FIM will be implemented for Windows 11. FIM is crucial for maintaining the security and integrity of files on systems by detecting unauthorized changes, which could indicate potential security breaches or system tampering.
+
+##  **Why File Integrity Monitoring**
+- Unauthorized file modifications
+- Malware activity
+- Insider threats
+- Policy violations
+
+It is commonly used in compliance standards such as PCI-DSS and ISO 27001.
+
 
 
 ### 2. Objectives
@@ -154,8 +163,43 @@ As can be seen in the image above. number 4 - the amount of characters after the
 -- The File Integrity Monitoring on Windows.
 </p>
 
+## 7. **Results**
 
-### 7. **Contact Information**
+The system successfully detected:
+- File creation events
+- File deletion events
+- File modification events
+
+Each event included:
+- Timestamp
+- File path
+- Type of change
+- User (whodata)
+
+This confirms that Wazuh FIM is functioning correctly.
+
+
+## 8. **Challenges Faced**
+
+- SSL certificate warning in browser
+- Agent not showing as active immediately
+- Configuration file path issues
+
+## 9. **Solutions**
+
+- Accepted self-signed certificate temporarily
+- Waited and refreshed dashboard
+- Verified ossec.conf configuration
+
+  ## 10. **Future Improvements**
+
+- Monitor multiple directories
+- Integrate email alerting
+- Deploy in a cloud environment (AWS/Azure)
+- Extend to Linux agents
+
+
+### 11. **Contact Information**
    - **Email**: bakaramarinus3@gmail.com
   
 
