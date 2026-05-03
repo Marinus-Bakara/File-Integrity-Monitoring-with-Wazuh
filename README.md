@@ -157,7 +157,7 @@ As can be seen in the image above. number 4 - the amount of characters after the
 -- The deployment of wazuh server, along with manager, indexer and dashboard, on Ubuntu 24.04 ;
 </p>
 <p>
--- The deployment of wazuh agent on Windows 2022;
+-- The deployment of wazuh agent on Windows 10 2022;
 </p>
 <p>
 -- The File Integrity Monitoring on Windows.
